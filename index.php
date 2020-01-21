@@ -23,10 +23,10 @@ else{
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Jirachi Places</a></h1>
+					<h1 id="logo"><a href="index.php">Jirachi Places</a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Bienvenido</a></li>
+							<li class="current"><a href="index.php">Bienvenido</a></li>
 							<li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
