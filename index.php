@@ -4,6 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<?php if(isset($_GET['pais']) and $_GET['pais']=='holanda'){
+	include "holanda.php";
+}
+else{
+?>
+
 <html>
 	<head>
 		<title>Jirachi Places</title>
@@ -27,7 +33,7 @@
 									<li><a href="left-sidebar.html">Left Sidebar</a></li>
 									<li><a href="right-sidebar.html">Right Sidebar</a></li>
 									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="contact.html">Contact us</a></li>
 									<li class="submenu">
 										<a href="#">Submenu</a>
 										<ul>
@@ -131,22 +137,22 @@
 								<div class="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<a href="?pais=holanda" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 										<header>
 											<h3>Holanda</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+										<p>Holanda es un pequeño país situado en la desembocadura de varios de los ríos más importantes del continente, un país de llanuras, canales, pólderes y diques, un país que comparte mucha de su historia y geografías con Bélgica y Alemania.Holanda es uno de los países más desarrollados y prósperos del mundo, un país que ha pasado de depender de la agricultura a ser tierra de grandes empresas y avances industriales y tecnológicos. </p>
 									</section>
 
 								</div>
 								<div class="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="senegal.php" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>Senegal</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+										<p>Cuando se viaja a Senegal uno no debe dejar de visitar su capital; Dakar. Situado en la punta de una península, esta ciudad vertiginosa se compone la elegancia y el bullicio de la gente. Concurridas calles, mercados y vida nocturna vibrante dibujando un ritmo implacable, pero siempre hay una vía de escape.</p>
 									</section>
 
 								</div>
@@ -155,52 +161,27 @@
 								<div class="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="japon.php" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Japón</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+										<p>Conocido por ser uno de los destinos más solicitados por los viajeros y lamentablemente en ocasiones descartado por el tópico de ser un país muy caro, Japón es el lugar ideal para conocer y vivir en primera persona, como la tradición más ancestral y la modernidad más extrema, pueden convivir en verdadera armonía.Todo esto, unido a una cultura fascinante y unas gentes increíblemente educadas, hacen de este destino una apuesta segura y un viaje inolvidable.</p>
 									</section>
 
 								</div>
 								<div class="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="estados.php" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>Estados Unidos</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>
-							</div>
-
-							<footer class="major">
-								<ul class="buttons">
-									<li><a href="#" class="button">See More</a></li>
-								</ul>
-							</footer>
-
-						</section>
+										<p>Se trata de la tercera nación más grande del mundo y está formado por una población multicultural fruto de la inmigración proveniente de todas partes del mundo.Un territorio absolutamente diverso y cambiante, lleno de contrastes, más la gran variedad de culturas y lenguas diferentes, hacen de este país uno de los destinos más interesantes para viajar.</p>
+								
 
 				</article>
 
-			<!-- CTA -->
-				<section id="cta">
-
-					<header>
-						<h2>Ready to do <strong>something</strong>?</h2>
-						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
-					</header>
-					<footer>
-						<ul class="buttons">
-							<li><a href="#" class="button primary">Take My Money</a></li>
-							<li><a href="#" class="button">LOL Wut</a></li>
-						</ul>
-					</footer>
-
-				</section>
+			
 
 			<!-- Footer -->
 				<footer id="footer">
@@ -214,7 +195,7 @@
 					</ul>
 
 					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Jirachi Places</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 				</footer>
@@ -233,3 +214,9 @@
 
 	</body>
 </html>
+
+
+
+<?php
+ }
+?>
